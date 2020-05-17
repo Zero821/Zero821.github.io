@@ -1,0 +1,35 @@
+@media screen and(min-width: 992px){
+    .carousel-item .vertiImg{
+        width: 1024px;
+        height: 768px;
+        max-height: 768px;
+    }
+
+    .carousel-item .horiImg{
+        width: 500px;
+        height: 1024px;
+        max-width: 500;
+    }
+}
+
+@media screen and(max-width: 991px){
+    .carousel-item .vertiImg{
+        width: 768px;
+        height: 576px;
+        max-height: 576px;
+    }
+
+    .carousel-item .horiImg{
+        width: 300px;
+        height: 750px;
+        max-width: 300px;
+    }
+}
+.wrapper{
+    background: rgb(51, 58, 61);
+    background: linear-gradient(to bottom rgb(51, 58, 61), rgb(200,200,200));
+}
+
+html{
+    background: rgb(51, 58, 61);
+}

@@ -1,0 +1,73 @@
+
+@media screen and (min-width: 1630px){
+    body{
+        background-image: url('/images/original.jpeg');
+        background-size:cover;
+    }
+}
+
+@media screen and (min-width: 901px){
+    body{
+        background-image: url('/images/resized.jpeg');
+        background-repeat: no-repeat;
+        background-position: top;
+        background-attachment: fixed;
+    }
+}
+
+@media screen and (max-width: 900px){
+    body{
+        background-image: url('/images/flaps.jpeg');
+        background-repeat: repeat;
+        background-size: 900px;
+        background-position: top;    }
+    
+}
+
+@media screen and (min-width:100px){
+    .container{
+        min-width: 90vw;
+    }
+}
+
+@media screen and (min-width: 901px){
+    .title{
+        font-family: 'Montserrat', Helvetica, Arial;
+        font-size: 2.5rem;
+        color: rgb(218, 218, 218);
+    }
+
+    .links{
+        font-family: 'Montserrat', Helvetica, Arial;
+        font-size: 1rem;
+    }
+    .links a{
+        color: rgb(218, 218, 218);        
+        text-decoration: none;
+    }
+
+}
+
+@media screen and (max-width: 900px) and (min-width: 320px){
+    .title{
+        font-family: 'Montserrat', Helvetica, Arial;
+        font-size: 2rem;
+        
+    }
+
+    .links{
+        font-family: 'Montserrat', Helvetica, Arial;
+        font-size: .95rem;
+
+    }
+    .links a{
+        color: rgb(70, 70, 70);
+        text-decoration: none;
+    }
+
+}
+
+.instLogo{
+    width: 20px;
+    height: 20px;
+}
