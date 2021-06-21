@@ -22,6 +22,10 @@ body, html {
     background-image: url('../img/2018/4.jpeg');
     min-height: 1000px;
   }
+  #carousel-inset{
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 @media only screen and (min-width: 1000px){
@@ -31,6 +35,10 @@ body, html {
   }
   #navbar{
     color: rgb(212, 212, 212);
+  }
+  #carousel-inset{
+    max-width: 75%;
+    height: auto;
   }
 }
 
@@ -42,13 +50,16 @@ body, html {
   #navbar{
     color: #fff;
   }
+  #carousel-inset{
+    max-width: 85%;
+    height: auto;
+  }
 }
 
 .same-size{
   height: 250px;
   width:100%;
 }
-
 
 /* background transparent color for text logo text  */
 #title-div{
