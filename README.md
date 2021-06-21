@@ -1,0 +1,1 @@
+Full credit to https://it-services-web-dev.netlify.app/w3-parallax.html and @singhofen on github for initial code. Modded to serve as simple site to host my own amatuer shots in a better way for friends and family.
