@@ -33,8 +33,8 @@ body, html {
     background-image: url('../img/2018/4.jpeg');
     min-height: 1000px;
   }
-  #carousel-inset{
-    max-width: 100%;
+  .portrait{
+    max-width: 70vh;
     height: auto;
   }
 }
@@ -47,8 +47,8 @@ body, html {
   #navbar{
     color: rgb(212, 212, 212);
   }
-  #carousel-inset{
-    max-width: 75%;
+  .portrait{
+    max-width: 70vh;
     height: auto;
   }
 }
@@ -61,8 +61,8 @@ body, html {
   #navbar{
     color: #fff;
   }
-  #carousel-inset{
-    max-width: 85%;
+  .portrait{
+    max-width: 70vh;
     height: auto;
   }
 }
